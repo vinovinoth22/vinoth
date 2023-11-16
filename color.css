@@ -1,0 +1,21 @@
+th{
+     background-color: lightpink;
+     color:greys ;
+
+}
+.s1{
+    background-color: lightgreen;
+    color: white;
+}
+#s2{
+    color: orangered;
+}
+#s3{
+    color: blueviolet;
+}
+#s4{
+    color: green;
+}
+*{
+    background-color: black;
+}
