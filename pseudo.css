@@ -1,0 +1,17 @@
+h1::after{
+    content:"-captain of black pearl";
+    content:"-belongs to jack sparrow";
+}
+ h2::before{
+    content: "captain of white pearl";
+ }
+  h3::first-letter{
+    color: blue;
+  }
+p::first-line{
+    color:brown;
+}
+p::selection{
+    background-color:red;
+               color: gold;
+}
