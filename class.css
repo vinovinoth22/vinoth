@@ -1,0 +1,21 @@
+a:link{
+    color: aqua;
+}
+ a:visited{
+    color: blanchedalmond;
+ }
+ a:hover{
+    color: red;
+ }
+ a:active{
+    color: blue;
+ }
+ legend:hover{
+    color: blueviolet;
+ }
+ p:first-child{
+    color:aquamarine
+ }
+ p:nth-child(3){
+    background-color: blueviolet;
+ }
