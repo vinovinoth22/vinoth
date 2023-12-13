@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#main{
+    background-color: skyblue;
+    border: 2px solid green;
+    height: 500px;
+    width: 1000px;
+}
+h1{
+
+    color: white;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: cursive;
+}
+h3{
+    color: black;
+    font-size: small;
+    position: absolute;
+    top: 45px;
+    left: 25px;
+}
+.page{
+    
+    border: 2px;
+    background-color: lightblue;
+    width: 200px;
+    position: absolute;
+    top: 80px;
+}
+
+.black{
+   border-bottom: 2px dashed black;
+   color: black;
+}
+#side{
+    border: 2px;
+    background-color: lightblue;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    left: 250px;    
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#img{
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    top: 100px;
+    left: 30px;
+    background-image: url("https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTc0NDQxMDI4NDY2OTc2MTA0/step-by-step-drawing-of-a-guitar.jpg");
+    background-size: cover;
+    border-style: outset;
+}
+#title{
+    color: black;
+    
+}

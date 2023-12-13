@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 100px;
+            width: 150px;
+            background-color: yellow;
+            margin: 2px;
+            color: red;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: large;
+          /*  transition-duration: 5s;
+            transition-delay: 1s;
+            transition-property:height;*/
+            transition: all 5s cubic-bezier(0.755, 0.05, 0.855, 0.06) 1s;
+
+        }
+        .container:hover{
+            color: black;
+            background-color: aquamarine;
+            height: 100px;
+            width: 300px;
+            border-radius: 30%;
+            padding: 50%;
+
+
+
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" id="box1">Kali loves Ganga</div>
+    <div class="container" id="box2">Vetri loves cauvery</div>
+    <div class="container" id="box3">Chittah loves chitthi</div>
+    <div class="container" id="box4">ALL started as oneside</div>
+    <div class="container" id="box5">ended as oneside</div>
+    
+</body>
+</html>
