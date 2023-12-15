@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://i.pinimg.com/originals/77/76/30/7776304ced19578dd80417f3edcba012.jpg");
+        }
+        div{
+            height: 250px;
+            width: 250px;
+            background-color: gray;
+            position: relative;
+            animation-name:magicbox;
+            animation-duration: 2s;
+            animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            animation-direction: alternate-reverse;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+            background-image: url("https://cdn4.vectorstock.com/i/1000x1000/49/03/girl-with-a-bouncing-ball-vector-2814903.jpg");
+            background-size: cover;
+
+            border-radius: 100%;
+            
+        }
+        @keyframes magicbox{
+            0%{
+                top: 0px;
+                left: 0px;
+            }
+           25%{
+                top: 0px;
+                left: 500px;
+            }
+            50%{
+                top: 500px;
+                left: 500px;
+            }
+            75%{
+                top: 500px;
+                left: 0px;
+            }
+            100%{
+                top: 0px;
+                left: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+        <div>
+           
+        </div>
+    
+</body>
+</html>
